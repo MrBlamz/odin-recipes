@@ -2,8 +2,9 @@
   --green: #7ce38b;
   --white: #ecf2f8;
   --orange: #faa356;
+  --grey: #0d1117;
 
-  background-color: #0d1117;
+  background-color: var(--grey);
   color: var(--white);
 }
 
@@ -73,4 +74,16 @@ li {
 .img {
   width: 500px;
   border-radius: 10px;
+}
+
+.button {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--orange);
+  color: var(--grey) !important;
+}
+
+.button:hover {
+  background-color: var(--green);
 }
